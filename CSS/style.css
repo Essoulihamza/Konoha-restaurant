@@ -49,6 +49,7 @@ footer {
     width: 100%;
     height: 550px;
     background-color: #1D1C28;
+    margin-top: 150px;
 }
 footer .logo {
     margin-top: 60px;
@@ -70,7 +71,7 @@ footer .info {
     color: white;
     margin-top: 90px;
 }
-/*                                                              home                                                     */
+/*                                                      home                                                             */
 .firts-section {
     height: 770px;
     padding-top: 115px;
@@ -82,21 +83,21 @@ footer .info {
     height: 100%;
     z-index: -1;
 }
-.home .wave {
+.wave {
     text-align: center;
     margin-top: 60px;
 }
-.home .wave h1 {
+.wave h1 {
     color: white;
     font-size: 77px;
     font-weight: 600;
     line-height: 94px;
 }
-.home .wave h1 span {
+.wave h1 span {
     letter-spacing: 50px;
 }
-.home .wave button,
-.home .wave button a {
+button,
+button a {
     margin-top: 45px;
     width: 360px;
     height: 88px;
@@ -110,26 +111,98 @@ footer .info {
 .section-two {
     margin-top: 60px;
 }
-.section-two .headers {
+.headers {
     display: flex;
     flex-direction: column;
     gap: 20px;
     text-align: center;
 }
-.section-two .headers h3 {
+.headers h3 {
     font-size: 25.67px;
     color: rgba(104, 104, 104, 0.6);
 }
-.section-two .headers h2 {
+.headers h2 {
     font-size: 38.5px;
     font-weight: 700;
+    margin-bottom: 130px;
 }
-.plat-gtid {
-    margin: 130px 100px;
+.plat-grid {
     display: grid;
-    grid-template-columns: repeat(3 ,356px);
-    grid-template-rows: repeat(3 ,277px);
+    justify-content: center;
+    grid-template-columns: repeat(3 , 50vh);
+    grid-template-rows: repeat(3 , 44.96vh);
+    column-gap: 13.96vh;
+    row-gap: 60px;
+    margin: 0px 100px;
 }
+.plat-grid div {
+    width: 50vh;
+    height: 277px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.plat-grid .plat-1 {
+    background-image: url(/img/background1.jpg);
+}
+.plat-grid .plat-2 {
+    background-image: url(/img/ramen.jpg);
+}
+.plat-grid .plat-3 {
+    background-image: url(/img/sushi2.jpg);
+}
+.plat-grid .plat-4 {
+    background-image: url(/img/plat1.jpg);
+}
+.plat-grid .plat-5 {
+    background-image: url(/img/sushi3.jpg);
+}
+.plat-grid .plat-6 {
+    background-image: url(/img/salade2.jpg);
+}
+.prices {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 60px;
+    column-gap: 80px;
+    margin: 0px 100px;
+}
+.prices p {
+    font-family: 'Bellefair';
+    color: rgba(29, 28, 40, 0.75);
+}
+p .span-1 {
+    font-family: 'Montserrat';
+    font-weight: 600;
+    color: #1D1C28;
+}
+.span-1 .span-2 {
+    font-weight: 400;
+    color: rgba(29, 28, 40, 0.6);
+}
+.section-three button {
+    margin-left: 33%;
+    margin-right: 33%;
+    margin-bottom: 130px;
+}
+.home-about {
+    margin: 0px 100px 130px 100px;
+    width: 1000px;
+    height: 400px;
+    background-color: #1D1C28;
+    border: none;
+    border-radius: 0px 20px 0px 20px;
+    color: white;
+    text-align: center;
+}
+.home-about p {
+    padding-top: 150px;
+    padding-bottom: 150px;
+    padding-left: 80px;
+    padding-right: 80px;
+}
+/*________________________________________________________________________________________________________________________________________*/
+
 
 /*                                                               contact                                                        */
 
@@ -177,6 +250,7 @@ textarea::placeholder {
     color: white;
     width: 100%;
     height: 100%;
+    font-size: 19px;
 }
 .contact-form button {
     margin-top: 15px;
@@ -187,4 +261,146 @@ textarea::placeholder {
 }
 #message {
     grid-row: span 2;
+}
+.contact-section .contact-img {
+    background-image: url(/img/contact\ us\ bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    grid-row: span 5;
+    height: 102%;
+}
+
+/*                                              about                                                                    */
+.story {
+    margin: 140px 100px;
+    width: 85%;
+    height: 900px;
+    background-color: #1D1C28;
+    color: white;
+    border-radius: 0px 20px 0px 20px;
+}
+.story p {
+    font-size: 25px;
+    text-align: left;
+    margin-top: 75px;
+    padding: 50px;
+}
+
+/*                                                          Menu                                                               */
+.menu-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+.menu-filter {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 100px;
+    margin-right: 100px;
+    grid-column: span 3;
+    margin-bottom: 30px;
+}
+.chop-cart {
+    width: 50px;
+    height: 50px;
+    background-color: #1D1C28;
+    text-align: center;
+}
+.chop-cart img {
+    margin-top: 8px;
+    margin-bottom: 8px;
+}
+#filter  {
+    background: #1D1C28;
+    color: white;
+    width: 400px;
+    height: 50px;
+    border: none;
+    border-radius: 20px 0px 20px 0px;
+    text-align: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.dishes {
+    display: grid;
+    grid-template-columns: repeat(3, 400px);
+    grid-template-rows: repeat(3, 300px);
+    row-gap: 40px;
+    column-gap: 11px;
+    justify-content: center;
+}
+.plat {
+    display: flex;
+    margin-top: 20px;
+    border-radius: 20px 0px 20px 0px;
+    width: 100%;
+    height: 100%;
+    background: #1D1C28;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.plat-1 {
+    background-image: url(/img/menu1.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.plat-2 {
+    background-image: url(/img/menu8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.plat-3 {
+    background-image: url(/img/menu2.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.plat-4 {
+    background-image: url(/img/menu3.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.plat-5 {
+    background-image: url(/img/menu4.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.plat-6 {
+    background-image: url(/img/menu5.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.plat-7 {
+    background-image: url(/img/menu6.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.plat-8 {
+    background-image: url(/img/menu7.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.plat-9 {
+    background-image: url(/img/menu8.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.plat button {
+    width: 250px;
+    height: 50px;
+    justify-content: end;
+    margin-left: 48px;
+    margin-top: 250px;
+
+}
+.plat button a {
+    font-size: 25px;
+    font-weight: 500;
+    font-family: 'montserrat';
+    color: rgba(255, 255, 255, 1);
+
+}
+.plat p {
+    color: white;
+    display: inline-block;
+    height: 100px;
 }
