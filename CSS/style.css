@@ -142,22 +142,22 @@ button a {
     background-size: cover;
 }
 .plat-grid .plat-1 {
-    background-image: url(/img/background1.jpg);
+    background-image: url(./img/background1.jpg);
 }
 .plat-grid .plat-2 {
-    background-image: url(/img/ramen.jpg);
+    background-image: url(./img/ramen.jpg);
 }
 .plat-grid .plat-3 {
-    background-image: url(/img/sushi2.jpg);
+    background-image: url(./img/sushi2.jpg);
 }
 .plat-grid .plat-4 {
-    background-image: url(/img/plat1.jpg);
+    background-image: url(./img/plat1.jpg);
 }
 .plat-grid .plat-5 {
-    background-image: url(/img/sushi3.jpg);
+    background-image: url(./img/sushi3.jpg);
 }
 .plat-grid .plat-6 {
-    background-image: url(/img/salade2.jpg);
+    background-image: url(./img/salade2.jpg);
 }
 .prices {
     display: grid;
@@ -263,7 +263,7 @@ textarea::placeholder {
     grid-row: span 2;
 }
 .contact-section .contact-img {
-    background-image: url(/img/contact\ us\ bg.jpg);
+    background-image: url(./img/contact\ us\ bg.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     grid-row: span 5;
@@ -340,47 +340,47 @@ textarea::placeholder {
     background-repeat: no-repeat;
 }
 .plat-1 {
-    background-image: url(/img/menu1.png);
+    background-image: url(./img/menu1.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .plat-2 {
-    background-image: url(/img/menu8.png);
+    background-image: url(./img/menu8.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .plat-3 {
-    background-image: url(/img/menu2.png);
+    background-image: url(./img/menu2.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .plat-4 {
-    background-image: url(/img/menu3.png);
+    background-image: url(./img/menu3.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .plat-5 {
-    background-image: url(/img/menu4.png);
+    background-image: url(./img/menu4.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .plat-6 {
-    background-image: url(/img/menu5.png);
+    background-image: url(./img/menu5.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .plat-7 {
-    background-image: url(/img/menu6.png);
+    background-image: url(./img/menu6.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .plat-8 {
-    background-image: url(/img/menu7.png);
+    background-image: url(./img/menu7.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
 .plat-9 {
-    background-image: url(/img/menu8.png);
+    background-image: url(./img/menu8.png);
     background-size: cover;
     background-repeat: no-repeat;
 }
