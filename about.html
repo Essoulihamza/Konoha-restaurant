@@ -5,32 +5,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Konoha is a japanese retaurant that provide the most popular japanese dishes ">
     <meta name="keywords" content="sushi, japane, ramen, japane dishes">
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
     <title>Konoha</title>
 </head>
 <body>
     <!----------------------------------------------------header-------------------------------------------------------->
     <header>
         <img src="./img/logo.png" alt="Konoha retaurant logo" class="logo">
-        <nav>
-            <ul>
+            <ul id="nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="" class="link">About US</a></li>
                 <li><a href="contact.html">Contact US</a></li>
             </ul>
-        </nav>
+        <a href="" class="shoping-cart">
+            <img src="./img/shopping-cart.png" alt="shping cart png">
+            <div>0</div>
+        </a>
+        <img src="./img/burger-menu.png" alt="nav icon" id="burger">
     </header>
     <!----------------------------------------------------section1------------------------------------------------------->
-    <section class="firts-section about">
-        <h1>We are proud
-            to let you 
-            know 
-            ABOUT US</h1>
+    <section class="section-about section">
+        <div class="wave">
+            <h1>We are proud<br>
+            to let you<br> 
+            know<br>
+           <span>ABOUT US</span></h1>
+        </div>
     </section>
     <!----------------------------------------------------section2------------------------------------------------------->
-    <section>
-        <div>
+    <section class="secondaire-section">
+        <div class="about-story">
             <p>Sushi had been introduced to the West by the early 1900s, following Japanese immigration after the Meiji Restoration. However, it was not popular among anyone except the upper-class, and as Japanese immigration declined in the late 1900s, it became much less common.
                 Sushi began becoming more popular again in the United States a few years after the conclusion of World War II, when Japan once again became open for international trade, tourism, and business. In the 1960s, this trend began to take hold in America in earnest, and middle-class Americans began trying sushi for themselves – and loving it.
                 Like most elements of food history, there is a great deal of debate surrounding exactly which restaurant introduced sushi to Western Diners – and it’s really not possible to determine exactly who was responsible for doing so.
@@ -42,40 +47,42 @@
     
     <!-----------------------------------------------------FOOTER--------------------------------------------------------->
     <footer>
-        <img src="./img/logo.png" alt="Konoha retaurant logo">
-        <div>
-            <div>
-                <img src="./img/" alt="">
-                <div>
-                    <p>+2126 12 34 56 78</p>
-                    <p>+2126 21 43 65 87</p>
-                </div>
+        <img src="./img/logo.png" alt="Konoha retaurant logo" class="logo">
+        <div class="info">
+            <div class="phones">
+                    <img src="./img/phone.png" alt="phone icon" width="24px" height="24px">
+                    <div>
+                        <p>+2126 12 34 56 78</p>
+                        <p>+2126 21 43 65 87</p>
+                    </div>
             </div>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <p>Konoha@gmail.com</p>
-                    <p>Konoha-safi@gmail.com</p>
-                    <p>Konoha-casa@gmail.com</p>
-                    <p>Konoha-agadir@gmail.com</p>
-                </div>
+            <div class="emails">
+                
+                    <img src="./img/mail.png" alt="email icon">
+                    <div class="email-list">
+                        <p>Konoha@gmail.com</p>
+                        <p>Konoha-safi@gmail.com</p>
+                        <p>Konoha-casa@gmail.com</p>
+                        <p>Konoha-agadir@gmail.com</p>
+                    </div>
+                
             </div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                    <p>konoha resturant</p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <p>konoha resturant</p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <p>konoha resturant</p>
-                </div>
+            <div class="social-media">
+                    <div>
+                        <img src="./img/facebook-box-logo.png" alt="facebook icone">
+                        <p>konoha resturant</p>
+                    </div>
+                    <div>
+                        <img src="./img/instagram-logo.png" alt="instagram icon">
+                        <p>konoha resturant</p>
+                    </div>
+                    <div>
+                        <img src="./img/twitter-logo.png" alt="twitter icon">
+                        <p>konoha resturant</p>
+                    </div>
             </div>
-            <p>© 2022 KONOHA Tous les droits sont réservés.</p>
         </div>
+        <p>© 2022 KONOHA Tous les droits sont réservés.</p>
     </footer>
 </body>
 </html>

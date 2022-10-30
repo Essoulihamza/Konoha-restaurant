@@ -5,87 +5,89 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="Konoha is a japanese retaurant that provide the most popular japanese dishes ">
     <meta name="keywords" content="sushi, japane, ramen, japane dishes">
-    <link rel="stylesheet" href="./CSS/style.css">
+    <link rel="stylesheet" href="./CSS/styles.css">
     <title>Konoha</title>
 </head>
 <body>
     <!----------------------------------------------------header-------------------------------------------------------->
     <header>
-        <img src="/img/logo.png" alt="Konoha retaurant logo" class="logo">
-        <nav>
-            <ul>
+        <img src="./img/logo.png" alt="Konoha retaurant logo" class="logo"> 
+            <ul id="nav">
                 <li><a href="index.html">Home</a></li>
                 <li><a href="menu.html">Menu</a></li>
                 <li><a href="about.html">About US</a></li>
                 <li><a href="" class="link">Contact US</a></li>
             </ul>
         </nav>
+        <a href="" class="shoping-cart">
+            <img src="./img/shopping-cart.png" alt="shping cart png">
+            <div>0</div>
+        </a>
+        <img src="./img/burger-menu.png" alt="nav icon" id="burger">
     </header>
     <!----------------------------------------------------section1------------------------------------------------------->
-    <section class="firts-section contact">
-        <h1>Feel free
-            to 
-            CONTACT
-            US</h1>
+    <section class="section-contact section">
+        <div class="wave">
+            <h1>Feel free<br>
+            to<br>
+            <span>CONTACT<br>US</span> </h1>
+        </div>
+        
     </section>
     <!----------------------------------------------------section1------------------------------------------------------->
-    <section class="contact-section">
-            <div class="contact-header">
-                <h2>CONTACT US FORM</h2>
-            </div>
-            <div>
-                <img src="" alt="restaurant image">
-            </div>
-            <form class="contact-form">
-                <div class="f-name">
+    <section class="contact-section secondaire-section">
+        <div class="headers">
+            <h2>CONTACT US FORM</h2>
+        </div>
+        <div class="contact-form">
+            <form class="form">
                     <input type="text" name="first-name" id="first-name" placeholder="First Name">
-                </div>
-                <div class="l-name">
                     <input type="text" name="last-name" id="last-name" placeholder="Last Name">
-                </div>
-                <div class="email">
                     <input type="email" name="email" id="email" placeholder="Email">
-                </div>
-                <input type="text" name="message" id="message" placeholder="Message">
+                    <input type="text" name="message" id="message" placeholder="Message">
                     <button><a href="">Send Message</a></button>
             </form>
+            <div class="contact-img"></div>
+        </div>
     </section>
     <!-----------------------------------------------------FOOTER--------------------------------------------------------->
     <footer>
-        <img src="./img/logo.png" alt="Konoha retaurant logo">
-        <div>
-            <div>
-                <img src="./img/" alt="">
-                <div>
-                    <p>+2126 12 34 56 78</p>
-                    <p>+2126 21 43 65 87</p>
-                </div>
+        <img src="./img/logo.png" alt="Konoha retaurant logo" class="logo">
+        <div class="info">
+            <div class="phones">
+                    <img src="./img/phone.png" alt="phone icon" width="24px" height="24px">
+                    <div>
+                        <p>+2126 12 34 56 78</p>
+                        <p>+2126 21 43 65 87</p>
+                    </div>
             </div>
-            <div>
-                <img src="" alt="">
-                <div>
-                    <p>Konoha@gmail.com</p>
-                    <p>Konoha-safi@gmail.com</p>
-                    <p>Konoha-casa@gmail.com</p>
-                    <p>Konoha-agadir@gmail.com</p>
-                </div>
+            <div class="emails">
+                
+                    <img src="./img/mail.png" alt="email icon">
+                    <div class="email-list">
+                        <p>Konoha@gmail.com</p>
+                        <p>Konoha-safi@gmail.com</p>
+                        <p>Konoha-casa@gmail.com</p>
+                        <p>Konoha-agadir@gmail.com</p>
+                    </div>
+                
             </div>
-            <div>
-                <div>
-                    <img src="" alt="">
-                    <p>konoha resturant</p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <p>konoha resturant</p>
-                </div>
-                <div>
-                    <img src="" alt="">
-                    <p>konoha resturant</p>
-                </div>
+            <div class="social-media">
+                    <div>
+                        <img src="./img/facebook-box-logo.png" alt="facebook icone">
+                        <p>konoha resturant</p>
+                    </div>
+                    <div>
+                        <img src="./img/instagram-logo.png" alt="instagram icon">
+                        <p>konoha resturant</p>
+                    </div>
+                    <div>
+                        <img src="./img/twitter-logo.png" alt="twitter icon">
+                        <p>konoha resturant</p>
+                    </div>
             </div>
-            <p>© 2022 KONOHA Tous les droits sont réservés.</p>
         </div>
+        <p>© 2022 KONOHA Tous les droits sont réservés.</p>
     </footer>
 </body>
 </html>

@@ -1,0 +1,440 @@
+*,
+*:focus {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+    scroll-behavior: smooth;
+    font-family: 'montserrat';
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: none;
+}
+header {
+    position: fixed;
+    width: 100%;
+    height: auto;
+    padding: 0 5%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: white;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, .25);
+}
+.logo {
+    width: 100px;
+}
+#burger {
+    display: none;
+}
+header ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5vw;
+}
+header ul a {
+    font-size: 20px;
+    font-weight: 500;
+    color: #1D1C28;
+}
+.link {
+    color: #ED1C24;
+}
+.shoping-cart {
+    background-color: #ED1C24;
+    padding: 8px;
+    border-radius: 50%;
+}
+.shoping-cart div {
+    position: absolute;
+    background-color: white;
+    border: #1D1C28 0.5px solid;
+    padding: 2.5px;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    text-align: center;
+    font-weight: 500;
+    color: #1D1C28;
+
+}
+/*________________________________________________________________________________*/
+.section {
+    width: 100%;
+    height: 100vh;
+    padding-top: 100px;
+}
+.section-home {
+    background-image: url(../img/home-background.jpg);
+}
+.wave {
+    width: 100%;
+    height: 77vh;
+    display: flex;
+    flex-direction: column;
+    gap: 10%;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    
+}
+.wave h1 {
+    text-align: center;
+    font-weight: 600;
+    font-size: 54px;
+    text-shadow: 1px 1px 2px red, 0 0 1em #ED1C24, 0 0 0.2em #ED1C24;
+}
+.wave h1 span {
+    letter-spacing: 26px;
+}
+.wave button {
+    width: 250px;
+    height: 50px;
+    background-color: #ED1C24;
+    border: none;
+    border-radius: 20px 0px 20px 0;
+}
+.wave button a {
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+}
+/*_____________________________________________________________________*/
+.secondaire-section {
+    width: 100%;
+    padding: 10% 5%;
+}
+.headers {
+    text-align: center;
+}
+.headers h2 {
+    font-size: 32px;
+}
+.headers h3 {
+    color: rgba(104, 104, 104, 0.6);
+    margin-bottom: 20px;
+}
+.row-1,
+.row-2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(356px, 1fr));
+    grid-template-rows: repeat(auto-fill, minmax(277px, 1fr));;
+    justify-items: center;
+}
+.plat-1 {
+    width: 300px;
+    height: 252px;
+    background-image: url(../img/home-menu-1.jpg);
+    margin-bottom: 20px;
+}
+.plat-2 {
+    width: 300px;
+    height: 252px;
+    background-image: url(../img/home-menu-2.jpg);
+    margin-bottom: 20px;
+}
+.plat-3 {
+    width: 300px;
+    height: 252px;
+    background-image: url(../img/home_menu-3.jpg);
+}
+.plat-4 {
+    width: 300px;
+    height: 252px;
+    background-image: url(../img/home-menu-4.jpg);
+    margin-bottom: 20px;
+}
+.plat-5 {
+    width: 300px;
+    height: 252px;
+    background-image: url(../img/home-menu-5.jpg);
+    margin-bottom: 20px;
+}
+.plat-6 {
+    width: 300px;
+    height: 252px;
+    background-image: url(../img/home-menu-6.jpg);
+    margin-bottom: 20px;
+}
+.recettes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 40px 0;
+}
+.recette {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 10px;
+    color: rgba(29, 28, 40, 0.75);
+    font-size: 20px;
+    font-weight: 400;
+    font-family: 'Bellefair';
+    margin: 30px 0;
+}
+.recette span {
+    color: #1D1C28;
+    font-family: 'montserrat';
+    font-weight: 500;
+}
+.menu-button {
+    text-align: center;
+}
+.menu-button button {
+    width: 250px;
+    height: 50px;
+    background-color: #ED1C24;
+    border: none;
+    border-radius: 20px 0px 20px 0;
+}
+.menu-button button a {
+    color: white;
+    font-weight: 600;
+    font-size: 22px;
+}
+.home-story  {
+    margin-top: 40px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    background-color: #1D1C28;
+    width: 100%;
+    height: auto;
+    color: white;
+    padding: 50px;
+    border-radius: 20px 0 20px 0;
+}
+footer {
+    width: 100%;
+    padding: 5%;
+    display: flex;
+    flex-direction: column;
+    background-color: #1D1C28;
+    color: white;
+}
+footer .info {
+    margin: 30px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+}
+.info div div{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+.emails, .phones  {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+footer > p {
+    padding-top: 80px;
+    text-align: center;
+}
+
+/*___________________________________________________________________*/
+.section-about {
+    background-image: url(../img/about-background.jpg);
+}
+.section-contact {
+    background-image: url(../img/contact-background.jpg);
+}
+.section-menu {
+    background-image: url(../img/menu-background.jpg);
+}
+/*__________________________________________________________________________________________________*/
+.about-story {
+    background-color: #1D1C28;
+    text-align: left;
+    color: white;
+    padding: 5%;
+    border-radius: 20px 0 20px 0;
+}
+/*                                                               contact                                                        */
+.contact-img {
+    align-self: center;
+    background-image: url(../img/contact-form-bg.jpg);
+    width: 400px;
+    height: 780px;
+}
+.contact-form {
+    margin-top: 120px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.form {
+    width: 60%;
+    display: grid;
+    grid-template-columns: 45% 45%;
+    justify-content: center;
+    column-gap: 150px;
+    grid-template-rows: repeat(4, 1fr);
+    row-gap: 20px;
+}
+.form input {
+    width: 100%;
+    height: 80px;
+    border-radius: 20px 0 20px 0;
+    background-color: #1D1C28;
+    color: rgba(255, 255, 255, 0.75);
+    text-align: center;
+}
+#email,
+#message,
+.form button {
+    grid-column: span 2;
+}
+#message {
+    height: 160px;
+}
+.form button {
+    background-color: #ED1C24;
+    border-radius: 20px 0 20px 0;
+    height: 80px;
+}
+.form button a {
+    color: white;
+    font-size: 19px;
+    font-weight: 500;
+    font-family: 'montserrat';
+}
+.menu-filter {
+    text-align: center;
+}
+#filter {
+    text-align: center;
+    color: white;
+    background-color: #1D1C28;
+    margin: 60px;
+    width: 200px;
+    height: 30px;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: 'montserrat';
+    border-radius: 20px 0px 20px 0;
+}
+.menu {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+}
+.menu div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 350px;
+    height: 250px;
+    background-position: center;
+    color: white;
+    text-align: center;
+    border-radius: 0px 20px 0px 20px;
+}
+.menu div h4 {
+    margin-top: 10px;
+    font-weight: 500;
+    font-family: 'montserrat';
+}
+.menu div button {
+    background-color: #ED1C24;
+    width: 50%;
+    height: 40px;
+    align-self: flex-end;
+    border-radius: 0px 20px 0px 20px;
+    color: white;
+    font-size: 19px;
+    font-weight: 400;
+    font-family: 'montserrat';
+    cursor: pointer;
+}
+
+.plat-1 {
+    background-image: url(../img/menu1.jpg);
+}
+.plat-2 {
+    background-image: url(../img/sushi1.jpg);
+}
+.plat-3 {
+    background-image: url(../img/menu3.jpg);
+}
+.plat-4 {
+    background-image: url(../img/sushi2.jpg);
+}
+.plat-5 {
+    background-image: url(../img/menu5.jpg);
+}
+.plat-6 {
+    background-image: url(../img/menu6.jpg);
+}
+.plat-7 {
+    background-image: url(../img/ramen.jpg);
+}
+.plat-8 {
+    background-image: url(../img/salsade1.jpg);
+}
+.plat-9 {
+    background-image: url(../img/salade2.jpg);
+}
+
+@media all  and (max-width: 1000px) {
+    #burger {
+        display: flex; 
+        cursor: pointer;   
+    }
+    #nav{
+        width: 70vw;
+        height: 100vh;
+        position: absolute;
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        background-color: #1D1C28;
+        top: 0;
+        right: -100%;
+        z-index: 10000;
+        transition: 0.5s all;
+    }
+    #nav a {
+        color: white;
+    }
+    .show {
+        right: 0;
+    }
+    .wave h1 {
+        text-align: center;
+        font-weight: 600;
+        font-size: 42px;
+        text-shadow: 1px 1px 2px red, 0 0 1em #ED1C24, 0 0 0.2em #ED1C24;
+    }
+    .wave h1 span {
+        letter-spacing: 12px;
+    }
+    p {
+        font-size: 14px;
+    }
+    .contact-form {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
+    #first-name,
+    #last-name {
+        grid-column: span 2;
+    }
+    .contact-img {
+        margin-top: 20px;
+        width: 365px;
+    }  
+    .menu {
+        justify-content: center;
+    }
+    
+}
