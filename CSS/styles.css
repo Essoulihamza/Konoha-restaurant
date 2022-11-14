@@ -321,13 +321,13 @@ footer > p {
     font-family: 'montserrat';
     border-radius: 20px 0px 20px 0;
 }
-.menu {
+#menu {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
     gap: 20px;
 }
-.menu div {
+#menu div {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -338,12 +338,12 @@ footer > p {
     text-align: center;
     border-radius: 0px 20px 0px 20px;
 }
-.menu div h4 {
+#menu div h4 {
     margin-top: 10px;
     font-weight: 500;
     font-family: 'montserrat';
 }
-.menu div button {
+#menu div button {
     background-color: #ED1C24;
     width: 50%;
     height: 40px;
@@ -356,31 +356,31 @@ footer > p {
     cursor: pointer;
 }
 
-.plat-1 {
+#plat-1  {
     background-image: url(../img/menu1.jpg);
 }
-.plat-2 {
+#plat-2 {
     background-image: url(../img/sushi1.jpg);
 }
-.plat-3 {
+#plat-3 {
     background-image: url(../img/menu3.jpg);
 }
-.plat-4 {
+#plat-4 {
     background-image: url(../img/sushi2.jpg);
 }
-.plat-5 {
+#plat-5 {
     background-image: url(../img/menu5.jpg);
 }
-.plat-6 {
+#plat-6 {
     background-image: url(../img/menu6.jpg);
 }
-.plat-7 {
+#plat-7 {
     background-image: url(../img/ramen.jpg);
 }
-.plat-8 {
+#plat-8 {
     background-image: url(../img/salsade1.jpg);
 }
-.plat-9 {
+#plat-9 {
     background-image: url(../img/salade2.jpg);
 }
 /* ------------cart box -------------------- */
@@ -393,7 +393,7 @@ footer > p {
     background-color: #1D1C28;
     right: 5vw;
     min-height: 70vh;
-    max-height: 90vh;
+    max-height: 70vh;
     width: 40vw;
     z-index: 10000000;
 }
@@ -403,15 +403,14 @@ footer > p {
     background-color: #ED1C24;
     
 }
-.product {
-    margin-top: 10px;
+.products {
+    margin: 10px;
     height: 100%;
     display: flex;
     flex-direction: column;
-    text-align: center;
-    align-items: center;
     justify-content: flex-start;   
     color: white;
+    overflow-y: scroll;
 }
 
 .buy {
@@ -420,6 +419,7 @@ footer > p {
     width: 100%;
     height: 10vh;
     background-color: white;
+    position: sticky;
 }
 #total {
     margin-left: 10px;
@@ -433,14 +433,44 @@ footer > p {
     padding: 5px;
     cursor: pointer;
 }
-.showed {
+#cart-bx.showed {
     display: flex;
 }
-
-.hide{
+#menu div.hide-menu {
     display: none;
 }
-
+#menu div.show-menu {
+    display: flex;
+}
+.product {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px 20px;
+}
+.product .img-name {
+    display: flex;
+    align-items: center;
+}
+.product .small-img {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background-image: url(../img/sushi2.jpg);
+}
+.quantity input {
+    width: 50px;
+    height: 25px;
+    margin-right: 20px;
+    text-align: center;
+}
+.quantity .remove-btn {
+    width: 120px;
+    height: 25px;
+    color: white;
+    background-color: #ED1C24;
+}
 
 @media all  and (max-width: 1000px) {
     #burger {

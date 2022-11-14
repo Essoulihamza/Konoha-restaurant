@@ -29,15 +29,12 @@
                 <h3>Your Cart</h3>
             </div>
             <hr>
-            <div class="product">
-                <p>there are no products yet</p>
-            </div>
+            <div class="products"></div>
             <div class="buy">
-                <span id="total">Total:  0.0DH</span>
+                <p id="total">Total: <span class="total-price">0.0</span>DH</p>
                 <div class="buy-now">
                     <button>Buy now</button>
                 </div>
-                
             </div>
         </div>
         <img src="./img/burger-menu.png" alt="nav icon" id="burger">
@@ -56,49 +53,50 @@
             <h2>OUR MENU</h2>
         </div>
         <div class="menu-filter">
-            <select name="filter" id="filter">
+            <select name="filter" id="filter" onchange="filterSelect();">
                 <option value="all">all</option>
                 <option value="sushi">sushi</option>
                 <option value="ramen">ramen</option>
                 <option value="salade">salade</option>
             </select>
         </div>
-        <div class="menu">
-            <div class="plat-1 sushi all" price="59">
+        <div id="menu">
+            <div class="sushi" id="plat-1">
+                <!-- <img src="./img/menu1.jpg" alt=""> -->
                 <h4>Name1</h4>
-                <button>Add to cart <span style="font-weight: 500;">59DH</span></button>
+                <button class="add">Add to cart <span style="font-weight: 500;">59</span>DH</button>
             </div>
-            <div class="plat-2 sushi all" >
+            <div class="sushi" id="plat-2">
                 <h4>Name2</h4>
-                <button>Add to cart <span style="font-weight: 500;" price="59">59DH</span></button>
+                <button class="add" >Add to cart <span style="font-weight: 500;">102</span>DH</button>
             </div>
-            <div class="plat-3 sushi all">
+            <div class="ramen" id="plat-3">
                 <h4>Name3</h4>
-                <button>Add to cart <span style="font-weight: 500;" price="59">59DH</span></button>
+                <button class="add">Add to cart <span style="font-weight: 500;">72</span>DH</button>
             </div>
-            <div class="plat-4 ramen all">
+            <div class="sushi" id="plat-4">
                 <h4>Name4</h4>
-                <button>Add to cart <span style="font-weight: 500;" price="59">59DH</span></button>
+                <button class="add">Add to cart <span style="font-weight: 500;">33</span>DH</button>
             </div>
-            <div class="plat-5 ramen all">
+            <div class="salade" id="plat-5">
                 <h4>Name5</h4>
-                <button>Add to cart <span style="font-weight: 500;" price="59">59DH</span></button>
+                <button class="add">Add to cart <span style="font-weight: 500;">25</span>DH</button>
             </div>
-            <div class="plat-6 ramen all">
+            <div class="ramen" id="plat-6">
                 <h4>Name6</h4>
-                <button>Add to cart <span style="font-weight: 500;" price="59">59DH</span></button>
+                <button class="add">Add to cart <span style="font-weight: 500;">48</span>DH</button>
             </div>
-            <div class="plat-7 salade all">
+            <div class="ramen" id="plat-7">
                 <h4>Name7</h4>
-                <button>Add to cart <span style="font-weight: 500;" price="89">89DH</span></button>
+                <button class="add">Add to cart <span style="font-weight: 500;">68</span>DH</button>
             </div>
-            <div class="plat-8 salade all">
+            <div class="salade" id="plat-8">
                 <h4>Name8</h4>
-                <button>Add to cart <span style="font-weight: 500;" price="89">89DH</span></button>
+                <button class="add">Add to cart <span style="font-weight: 500;">78</span>DH</button>
             </div>
-            <div class="plat-9 salade all">
+            <div class="salade" id="plat-9">
                 <h4>Name9</h4>
-                <button>Add to cart <span style="font-weight: 500;" price="89">89DH</span></button>
+                <button class="add">Add to cart <span style="font-weight: 500;">89</span>DH</button>
             </div>
         </div>
     </section>
