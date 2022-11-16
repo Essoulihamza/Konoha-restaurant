@@ -115,7 +115,6 @@ function addToCart(title, price, img) {
 	let cartRowContent = `
 	<div class="product">
 		<div class="img-name">
-			<div class="small-img"></div>
 				<p class="p-name">${title}</p>
 			</div>
 			<p><span class="element-price">${price}</span>DH</p>
